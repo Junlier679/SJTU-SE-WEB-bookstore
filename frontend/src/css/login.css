@@ -1,0 +1,87 @@
+.login-page{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: url("../pictures/background.jpg"),no-repeat;
+    background-size:100% 100%;
+}
+.login-container{
+    position:relative;
+    width: 400px;
+    height: 350px;
+}
+.login-box {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(75, 81, 95, 0.3);
+    box-shadow: 7px 7px 17px rgba(52, 56, 66, 0.5);
+    padding-top: 40px;
+    padding-left: 50px;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgba(53, 57, 74, 0)', endColorstr='rgb(0, 0, 0)',GradientType=1 );
+}
+.signup-container{
+    position:relative;
+    width: 400px;
+    height: 450px;
+}
+.login-title{
+    margin-right: 50px;
+    text-align: center;
+    font-size: 35px;
+}
+.username-input{
+    width: 300px;
+    margin-bottom: 10px;
+    background-color: white;
+    border: 1px solid #3762bc;
+    padding: 9px 14px;
+    font-size: 15px;
+    line-height: normal;
+    border-radius: 5px;
+}
+.password-input{
+    width: 300px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 1px solid #3762bc;
+    padding: 9px 14px;
+    font-size: 15px;
+    line-height: normal;
+    border-radius: 5px;
+}
+.login{
+    width: 120px;
+    background-color: #4a77d4;
+    border: 1px solid #3762bc;
+    color: #fff;
+    padding: 9px 14px;
+    font-size: 15px;
+    line-height: normal;
+    border-radius: 5px;
+}
+.signin{
+    width: 120px;
+    margin-left: 60px;
+    background-color: #4a77d4;
+    border: 1px solid #3762bc;
+    color: #fff;
+    padding: 9px 14px;
+    font-size: 15px;
+    line-height: normal;
+    border-radius: 5px;
+}
+.adminButton{
+    width: 300px;
+    height: 50px;
+    margin-bottom: 20px;
+    background-color: darkgray;
+    border: 0.1px solid #282c34;
+    color: #fff;
+    padding: 9px 14px;
+    font-size: 15px;
+    line-height: normal;
+    border-radius: 5px;
+}

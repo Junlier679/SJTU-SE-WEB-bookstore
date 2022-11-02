@@ -1,0 +1,159 @@
+.booktable{
+    width: 1000px;
+    float: left;
+}
+#searching{
+    float: top;
+}
+.search-input{
+    float: left;
+    height: 50px;
+    width: 800px;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: white;
+    padding: 9px 14px;
+    font-size: 15px;
+    line-height: normal;
+    border-bottom-left-radius: 12px;
+    border-top-left-radius: 12px;
+    border: 1px solid darkgray;
+}
+.search-button{
+    width: 100px;
+    height: 50px;
+    margin-top: 10px;
+    background: url("../pictures/search.jpg") no-repeat center;
+    background-size: 40%,80%;
+    border-bottom-right-radius: 12px;
+    border-top-right-radius: 12px;
+    border: 1px solid darkgray;
+}
+.booklist{
+    width: 1000px;
+    margin-left: 0px;
+}
+.content{
+    width: 1100px;
+    float: left;
+}
+.home-content{
+    width: 1000px;
+    float: left;
+}
+.booklink{
+    margin-top: 30px;
+    margin-right: 50px;
+    float: left;
+}
+#book{
+    float: left;
+}
+.book-img{
+    width: 200px;
+    height: 270px;
+    float: left;
+}
+#book-name{
+    text-align: center;
+    font-size: 15px;
+    color: darkslateblue;
+}
+.buyer{
+    width: 1000px;
+    height: 50px;
+    margin-left: 0px;
+    margin-top: 500px;
+}
+.payPrice{
+    width:200px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    float: right;
+    font-size: 20px;
+}
+.orderHost{
+    width: 300px;
+    height: 40px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    background-color: white;
+    border: 1px solid #3762bc;
+    padding: 9px 14px;
+    font-size: 15px;
+    line-height: normal;
+    border-radius: 5px;
+}
+.orderHostnumber{
+    width: 300px;
+    height: 40px;
+    margin-left: 80px;
+    margin-bottom: 10px;
+    background-color: white;
+    border: 1px solid #3762bc;
+    padding: 9px 14px;
+    font-size: 15px;
+    line-height: normal;
+    border-radius: 5px;
+}
+.orderPlace{
+    width: 680px;
+    height: 100px;
+    margin-bottom: 10px;
+    background-color: white;
+    border: 1px solid #3762bc;
+    padding: 9px 14px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+#trolley-book{
+    width: 950px;
+    height: 300px;
+    padding-top: 15px;
+    padding-left: 30px;
+    margin-left: 0px;
+    margin-bottom: 15px;
+    background-color: gainsboro;
+    border-radius: 50px;
+}
+.trolleylist{
+    width: 1000px;
+    margin-left: 0px;
+}
+.trolley-book-img{
+    width: 200px;
+    height: 270px;
+    margin-right: 20px;
+    float: left;
+}
+#trolley-book-name{
+    height: 50px;
+    font-size: 25px;
+}
+#trolley-book-detail1{
+    height: 30px;
+    font-size: 15px;
+}
+#trolley-book-detail2{
+    height: 30px;
+    font-size: 15px;
+    font-weight: bold;
+}
+#order{
+    height: 150px;
+    width: 400px;
+    margin-right: 100px;
+    padding-left: 20px;
+    padding-top: 5px;
+    background-color: #e0e3e5;
+}
+#orderId{
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#orderPrice{
+    height: 30px;
+    font-size: 15px;
+}

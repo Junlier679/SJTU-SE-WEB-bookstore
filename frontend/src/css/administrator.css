@@ -1,0 +1,87 @@
+
+.adminShow{
+    width: 840px;
+    height: 1000px;
+    background-color: white;
+}
+.user-search{
+    height: 50px;
+    width: 800px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    background-color: white;
+    padding: 9px 14px;
+    font-size: 15px;
+    line-height: normal;
+    border-radius: 10px;
+    border: 1px solid darkgray;
+}
+.user-line{
+    height: 50px;
+    width: 800px;
+    margin-left: 20px;
+    background-color: darkgray;
+    border: 1px solid white;
+}
+.user-text1{
+    height: 50px;
+    width: 200px;
+    float: left;
+    text-align: center;
+    line-height: 45px;
+}
+.user-text2{
+    height: 50px;
+    width: 280px;
+    float: left;
+    text-align: center;
+    line-height: 45px;
+}
+.user-valid{
+    height: 40px;
+    width: 110px;
+    float: top;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 3px;
+    background-color: lightgrey;
+    border: 1px solid lightgrey;
+}
+.adminShowBooks{
+    width: 1500px;
+    height: 1000px;
+}
+.book-line{
+    margin-left: 20px;
+    width: 1500px;
+    height: 40px;
+}
+.book-text1{
+    width: 200px;
+    height: 40px;
+}
+.book-text2{
+    width: 120px;
+    height: 40px;
+}
+.book-text3{
+    width: 50px;
+    height: 40px;
+    text-align: center;
+}
+.book-text4{
+    width: 500px;
+    height: 40px;
+}
+.book-button{
+    width: 80px;
+    height: 40px;
+    background-color: lightgrey;
+    border: 1px solid black;
+    color: grey;
+    padding: 9px 14px;
+    font-size: 15px;
+    line-height: normal;
+    border-radius: 5px;
+}

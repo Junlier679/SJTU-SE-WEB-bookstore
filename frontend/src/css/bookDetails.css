@@ -1,0 +1,137 @@
+.content{
+    width: 1100px;
+    height: 800px;
+    float: left;
+}
+#bookview-content{
+    width: 1000px;
+    height: 800px;
+    float: left;
+}
+.bookview-img{
+    width: 400px;
+    height: 560px;
+    float: left;
+}
+#book-details{
+    width: 580px;
+    height: 560px;
+    float: left;
+    margin-left: 20px;
+}
+#bookview-name{
+    width: 580px;
+    height: 80px;
+    float: left;
+    text-align: left;
+    line-height: 80px;
+    font-size: 40px;
+}
+#book-type{
+    width: 580px;
+    height: 40px;
+    float: left;
+    text-align: left;
+    line-height: 30px;
+    font-size: 25px;
+}
+#book-writer{
+    width: 580px;
+    height: 40px;
+    float: left;
+    text-align: left;
+    line-height: 30px;
+    font-size: 25px;
+}
+#book-price{
+    width: 580px;
+    height: 40px;
+    float: left;
+    text-align: left;
+    line-height: 30px;
+    font-size: 25px;
+}
+#book-intro{
+    width: 580px;
+    height: 400px;
+    float: left;
+    text-align: left;
+    line-height: 30px;
+    font-size: 20px;
+}
+#bookview-buttons{
+    width: 1000px;
+    height: 50px;
+    float: left;
+    margin-top: 20px;
+}
+.add-to-shoppingtrolley{
+    width: 120px;
+    height: 50px;
+    float: right;
+    margin-right: 20px;
+    background-color: #4a77d4;
+    border: 1px solid #3762bc;
+    color: #fff;
+    padding: 9px 14px;
+    font-size: 15px;
+    line-height: normal;
+    border-radius: 5px;
+}
+.buynow{
+    width: 120px;
+    height: 50px;
+    float: right;
+    background-color: #4a77d4;
+    border: 1px solid #3762bc;
+    color: #fff;
+    padding: 9px 14px;
+    font-size: 15px;
+    line-height: normal;
+    border-radius: 5px;
+}
+.order-host{
+    width: 300px;
+    height: 40px;
+    margin-bottom: 10px;
+    background-color: white;
+    border: 1px solid #3762bc;
+    padding: 9px 14px;
+    font-size: 15px;
+    line-height: normal;
+    border-radius: 5px;
+}
+.order-hostnumber{
+    width: 300px;
+    height: 40px;
+    margin-bottom: 10px;
+    background-color: white;
+    border: 1px solid #3762bc;
+    padding: 9px 14px;
+    font-size: 15px;
+    line-height: normal;
+    border-radius: 5px;
+}
+.order-place{
+    width: 580px;
+    height: 100px;
+    margin-bottom: 10px;
+    background-color: white;
+    border: 1px solid #3762bc;
+    padding: 9px 14px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.payment{
+    width: 120px;
+    height: 50px;
+    float: right;
+    margin-top: 180px;
+    background-color: #4a77d4;
+    border: 1px solid #3762bc;
+    color: #fff;
+    padding: 9px 14px;
+    font-size: 15px;
+    line-height: normal;
+    border-radius: 5px;
+}

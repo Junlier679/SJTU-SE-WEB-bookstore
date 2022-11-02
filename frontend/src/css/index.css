@@ -1,0 +1,89 @@
+#home-header{
+    background-color: whitesmoke;
+    padding-top: 20px;
+    height: 120px;
+    border: 1px solid #e0e3e5;
+}
+#header-content{
+    background-color: whitesmoke;
+    padding-left: 50px;
+    height: 80px;
+}
+#logo-area{
+    width: 300px;
+    float: left;
+}
+#logoandname{
+    background-color: white;
+    height: 80px;
+    width: 300px;
+    float: left;
+    border-radius: 20px;
+}
+.logo{
+    margin-left: 10px;
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+#store-name{
+    width: 200px;
+    height: 80px;
+    background-color: white;
+    float: left;
+    text-align: center;
+    line-height: 75px;
+    font-size: 42px;
+    font-weight: bold;
+    color: cadetblue;
+    border-radius: 20px;
+}
+#page-name{
+    width: 200px;
+    height: 80px;
+    float: left;
+    margin-left: 250px;
+    text-align: center;
+    line-height: 120px;
+    font-size: 30px;
+}
+.logout{
+    background-color: darkgray;
+    margin-top: 25px;
+    margin-right: 50px;
+    height: 30px;
+    float: right;
+    color: white;
+    border-radius: 10px;
+    border: 1px ;
+}
+#sidebars{
+    width: 200px;
+    height: 1200px;
+    float: left;
+    background-color: whitesmoke;
+    border: 1px solid #e0e3e5;
+}
+#Asidebar{
+    width: 200px;
+    height: 70px;
+    float: left;
+    padding-top: 10px;
+    border-bottom: 1px solid #e0e3e5;
+}
+.sidebar-logo{
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    float: left;
+}
+#sidebar-name{
+    width: 80px;
+    height: 50px;
+    margin-left: 10px;
+    float: left;
+    line-height: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(8, 128, 128, 0.55);
+}
