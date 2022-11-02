@@ -1,1 +1,1 @@
-# SJTU-SE-WEB-bookstoreSJTU-SE-WEB-bookstore
+# SJTU-SE-WEB-bookstore
