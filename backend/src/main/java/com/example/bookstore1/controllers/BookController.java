@@ -7,11 +7,14 @@ import org.springframework.web.bind.annotation.*;
 import com.example.bookstore1.service.BookService;
 import org.springframework.web.bind.annotation.RestController;
 import com.example.bookstore1.entity.Book;
+import com.example.bookstore1.DTO.ResultDTO;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+import lombok.extern.slf4j.Slf4j;
 
+@Slf4j
 @CrossOrigin
 @RestController
 public class BookController {
@@ -62,6 +65,19 @@ public class BookController {
         }
         String  booksString = JSON.toJSONString(booksJson, SerializerFeature.BrowserCompatible);
         return booksString;
+    }
+
+    @RequestMapping("/getWriter")
+    public ResultDTO findWriterByName(@RequestHeader("userName") String userName,
+                                   @RequestParam("bookName") String bookName){
+        log.info("userName: {}, bookName: {}", userName, bookName);
+        List<Book> books = bookService.findBookByName(bookName);
+        Iterator<Book> it = books.iterator();
+        if(it.hasNext()){
+            Book book = (Book) it.next();
+            return ResultDTO.success(String.format("userName: %s, bookName: %s, bookAuthor: %s", userName, bookName, book.getAuthor()));
+        }
+        return ResultDTO.error("default");
     }
 
     @GetMapping(value="/edit/{oldname}/{bookname}/{bookauthor}/{bookprice}/{bookdescriptions}/{bookstock}")
